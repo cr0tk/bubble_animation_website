@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    background-image: url(background.png);
+}
+.image{
+    width: 100px;
+    margin-top: 40px;
+}
+.navbar{
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+button{
+    color:#fcfcfd;
+    margin-top: 40px;
+    margin-right: 100px;
+    border-radius: 20px;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    padding: 10px 25px;
+}
+
+.content{
+    margin-top: -90px;;
+position: absolute;
+top: 50%;
+    left 8%;
+    
+}
+.chota{
+    color: white;
+    margin-left: 90px;
+    margin-top: 
+}
+h1{
+    color: white;
+    margin-top: 170px;
+    margin-left: 90px;
+    font-size: 90px;
+}
+.btn{
+    margin-top: 10px;
+    margin-left: 90px;
+}
+.side-bar{
+    width: 50px;
+    height: 100vh;
+    background: linear-gradient(#00545D,#000729);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.menu{
+    display: block;
+    width: 25px;
+    margin: 5px auto;
+    cursor: pointer;
+    margin-top: 44px;
+}
+.social-media{
+    display: block;
+    width: 45px;
+    margin: 5px auto;
+    cursor: pointer;
+    margin-top: 160px;
+}
+.share-wagera{
+    display: block;
+    width: 45px;
+    margin: 5px auto;
+    cursor: pointer;
+    margin-top: 180px;
+}
+.bubbles img{
+    width: 50px;
+    animation: bubble 7s linear infinite;
+}
+.bubbles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+}
+@keyframes bubble{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+        
+    50%{
+        opacity: 1;
+    }
+        70%{
+    
+        opacity: 1;
+    }
+        100%{
+            transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+.bubbles img:nth-child(1){
+    animation-delay: 2s
+}
+.bubbles img:nth-child(2){
+    animation-delay: 3s
+}
+.bubbles img:nth-child(3){
+    animation-delay: 4s
+}
+.bubbles img:nth-child(4){
+    animation-delay: 5s
+}
+.bubbles img:nth-child(5){
+    animation-delay: 6s
+}
+.bubbles img:nth-child(6){
+    animation-delay: 7s
+}
+.bubbles img:nth-child(7){
+    animation-delay: 8s
+}
